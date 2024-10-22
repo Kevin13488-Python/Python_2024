@@ -1,0 +1,13 @@
+way_to_calculate = input('What is the calculate way? (plus/minus/times/divide) ')
+first_number = int(input('What is the first number?'))
+second_number = int(input('What is the second number?'))
+answer = 0
+if way_to_calculate == 'plus':
+    answer = first_number + second_number
+elif way_to_calculate == 'minus':
+    answer = first_number - second_number
+elif way_to_calculate == 'times':
+    answer = first_number * second_number
+elif way_to_calculate == 'divide':
+    answer = first_number // second_number
+print (answer)
