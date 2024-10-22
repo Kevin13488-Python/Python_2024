@@ -1,1 +1,6 @@
-
+x = 56
+y = 'hello world'
+z = 3.1415926
+print(x)
+print(y)
+print(z)
