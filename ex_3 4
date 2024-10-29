@@ -1,0 +1,16 @@
+x = 3.14159
+y = 1.123
+print (f'hello world x = {x: 5f} ' , x)
+print (f'hello world x = {y} ', x)
+
+username = input("Enter username:")
+
+print("Username is: " + username)
+
+x = input("Enter float x:")
+print(type(x))
+x = float(x)
+print(f'Hello World x = {x: 5f} ')
+
+x = int(input("Enter int x:"))
+print (f'Hello World x = {x:5d} ')
