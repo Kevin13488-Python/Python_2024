@@ -1,0 +1,30 @@
+Year = (int(input("Enter Year: ")))
+x = Year / 4
+Month = (int(input("Ener Month: ")))
+if Month == 1:
+    print(31)
+if Month == 2:
+    if isinstance(x, int):  
+        print(29)  
+    else:  
+        print(28)  
+if Month == 3:
+    print(31)
+if Month == 4:
+    print(30)
+if Month == 5:
+    print(31)
+if Month == 6:
+    print(30)
+if Month == 7:
+    print(31)
+if Month == 8:
+    print(31)
+if Month == 9:
+    print(30)
+if Month == 10:
+    print(31)
+if Month == 11:
+    print(30)
+if Month == 12:
+    print(31)
