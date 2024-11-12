@@ -1,0 +1,9 @@
+x = (int(input("Enter Your Score")))
+if x > 90 and x == 100:
+    print("A")
+if x > 80 and x < 90 and x == 90:
+    print("B")
+if x > 70 and x < 80 and x == 80:
+    print("C")
+if x > 60 and x < 70 and x == 70:
+    print("D")
