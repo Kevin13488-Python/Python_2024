@@ -1,0 +1,4 @@
+Height = (int(input("Enter Height")))
+Wide = (int(input("Enter Wide")))
+x = Height * Wide
+print (x, "cm2")
