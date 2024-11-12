@@ -1,0 +1,9 @@
+i = 1
+while i < 10000:
+    print(i)
+    i += 1
+    if i == 10000:
+        break
+    i += 1
+print("out of loop i=")
+print(i)
