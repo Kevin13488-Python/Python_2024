@@ -1,0 +1,5 @@
+Height = (int(input("Enter Height: "))) ##Input Height Here
+Wide = (int(input("Enter Wide: ")))     ##Input Wide Here
+Length = (int(input("Enter Length: "))) ##Input Length Here
+x = Height * Wide * Length            ##Calcuale The Final Answer Here
+print ("The Answer is", x, "cm3")                      ##Print Final Answer
