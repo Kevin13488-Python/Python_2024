@@ -1,0 +1,5 @@
+r = (int(input("輸入一個圓半徑")))
+y = (r * 2 * 3.14)
+z = (r * r * 3.14)
+print(y)
+print(z)
