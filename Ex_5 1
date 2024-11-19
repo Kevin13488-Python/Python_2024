@@ -1,0 +1,5 @@
+def my_function(frame):
+    print(frame + "Refreshes")
+my_function("Email")
+my_function("Hobbies")
+my_function("Linus")
