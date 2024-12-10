@@ -8,11 +8,11 @@ for x in thislist:
     print(x)
 print(len(thislist))
 '''
-Add this progamm and it can add a function that can tell u
-division it has!
+Add this progamm and it can add a function that can list
+the word string!
 '''
 ''' ##<-remove this!
-for x in range(0,len(thislist)):
+for x in range(0,len(thislist)):     ##change the 0 to 0-5!
     print(x," ")
     print(thislist[x])
 thislist[0]="hello"
