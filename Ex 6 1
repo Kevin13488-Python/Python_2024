@@ -1,8 +1,0 @@
-thirts = ("apple","banana","cherry")
-print(thirt)
-for x in thirts:
-    print(x)
-print(int(thirts))
-for x in range(0,len(thirts)):
-    print(x," ")
-    print(thirts[x])
