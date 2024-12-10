@@ -1,0 +1,12 @@
+'''
+idk what to say:/
+'''
+thisdict = {
+    "brand": "Mercedes Benz",
+    "model": "C300",
+    "year": 1980
+}
+print(thisdict)
+print(len(thisdict))
+print(thisdict["brand"])
+print(thisdict["model"])
