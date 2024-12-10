@@ -1,0 +1,20 @@
+'''
+You can print, and even tell how many word string in this
+progamm!
+'''
+thislist = ["apple","banana","cherry","orange","strawberry"]
+print(thislist)
+for x in thislist:
+    print(x)
+print(len(thislist))
+'''
+Add this progamm and it can add a function that can tell u
+division it has!
+'''
+''' ##<-remove this!
+for x in range(0,len(thislist)):
+    print(x," ")
+    print(thislist[x])
+thislist[0]="hello"
+print(thislist)
+''' ##<- remove this!
