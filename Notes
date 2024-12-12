@@ -1,0 +1,17 @@
+fruit = {
+####"Key":"Value"
+    "apple": 1,
+    "banana": 30,
+    "Cherry": 100
+}
+a = fruit["apple"]
+b = fruit["banana"]
+c = fruit["Cherry"]
+d = fruit.keys()            ###list all the keys
+e = fruit.values()          ###list all the values
+###print a,b,c,d,e
+print("a:",a)
+print("b:",b)
+print("c:",c)
+print("d:",d)
+print("e:",e)
