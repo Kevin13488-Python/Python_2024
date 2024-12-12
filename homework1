@@ -1,0 +1,52 @@
+###30. 用陣列實現以下功能：輸入5個學生成績，而後求出這些成績的平均值並顯示出來。
+'''
+first = (int(input("Enter first grade")))
+second = (int(input("Enter second grade")))
+third = (int(input("Enter third grade")))
+Fourth = (int(input("Enter fourth grade")))
+Fifth = (int(input("Enter fifth grade")))
+Avg = [(first + second + third + Fourth + Fifth)/5]
+print (Avg)
+'''
+###31. 將一個有5個元素的陣列中的值(整數)按逆序重新存放。例: 原來順序為:8、6、5、4、1，要求改為1、4、5、6、8
+'''
+Set = {8,6,5,4,1}
+print(Set)
+'''
+###32、從鍵盤輸入10名學生的成績資料，求其中的最高分、最低分和平均分。（提示：用陣列存放成績資料）
+###這個有錯!!!!!!
+'''
+one = int(input("Enter first grade"))
+two = int(input("Enter second grade"))
+three = int(input("Enter third grade"))
+four = int(input("Enter fourth grade"))
+five = int(input("Enter fifth grade"))
+six = int(input("Enter sixth grade"))
+seven = int(input("Enter seventh grade"))
+eight = int(input("Enter eighth grade"))
+nine = int(input("Enter nineth grade"))
+ten = int(input("Enter tenth grade"))
+allgrade = set(one,two,three,four,five,six,seven,eight,nine,ten)
+highest = (allgrade[0])
+lowest = (allgrade[-1])
+Avg = [(one+two+three+four+five+six+seven+eight+nine+ten)/10]
+print("The highest is",highest)
+print("The lowest is",lowest)
+print("the average is",Avg)
+'''
+###33、從鍵盤輸入10名學生的成績資料，按成績從高到低的順序排列並輸出。（提示：用陣列存放成績資料）
+###這也有錯
+'''
+one = int(input("Enter first grade"))
+two = int(input("Enter second grade"))
+three = int(input("Enter third grade"))
+four = int(input("Enter fourth grade"))
+five = int(input("Enter fifth grade"))
+six = int(input("Enter sixth grade"))
+seven = int(input("Enter seventh grade"))
+eight = int(input("Enter eighth grade"))
+nine = int(input("Enter nineth grade"))
+ten = int(input("Enter tenth grade"))
+All = [one,two,three,four,five,six,seven,eight,nine,ten]
+print(All)
+'''
